@@ -1,0 +1,65 @@
+body {
+    background-color: #F8F3EF;
+    font-family: 'Kedebideri', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #7a684a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    max-width: 700px; /* Limita a largura no computador e centraliza, mantendo fluido no celular */
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;  
+}
+
+h1 {
+    color: #2f3e46;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    color: #2f3e46;
+    font-size: 18px;
+}
+
+/* Agrupamento de classes repetitivas para otimizar o código */
+.ponto1, .ponto2, .ponto3, .texto1, .texto2 {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: #2f3e46;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.significado1, .significado2 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #2f3e46;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
